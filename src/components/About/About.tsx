@@ -5,7 +5,6 @@ import AtriumImage1 from "/images/About 1 (3).jpg";
 import Carina from "../../assets/images/About 2.jpg";
 import John from "../../assets/images/About 3.jpg";
 import Matthew from "../../assets/images/About 4.jpg";
-import Jim from "../../assets/images/About 5.jpg";
 import James from "../../assets/images/About 6.jpg";
 import { Navigation } from "swiper/modules";
 
@@ -104,18 +103,6 @@ const About = () => {
 
             <div className="teams">
               <div className="team-content">
-                <img src={Carina} alt="Carina van Olm" />
-                <h1>
-                  Carina Van Olm <br />
-                  Founder + Director
-                </h1>
-                <p>
-                  Carina has a background in small business operations and
-                  interior design. She leads the Garden Loft Executive Team and
-                  is responsible for business management and interior design
-                </p>
-              </div>
-              <div className="team-content">
                 <img src={John} alt="John Brown" className="john" />
                 <h1>
                   John Brown <br />
@@ -129,6 +116,18 @@ const About = () => {
                 </p>
               </div>
               <div className="team-content">
+                <img src={Carina} alt="Carina van Olm" />
+                <h1>
+                  Carina Van Olm <br />
+                  Founder + Director
+                </h1>
+                <p>
+                  Carina has a background in small business operations and
+                  interior design. She leads the Garden Loft Executive Team and
+                  is responsible for business management and interior design
+                </p>
+              </div>
+              <div className="team-content">
                 <img src={Matthew} alt="Matthew North" />
                 <h1>
                   Matthew North <br />
@@ -138,18 +137,6 @@ const About = () => {
                   Matthew is a registered architect and a construction expert.
                   He leads detail project design, construction management, and
                   prefabrication logistics
-                </p>
-              </div>
-              <div className="team-content">
-                <img src={Jim} alt="Jim Gibson" />
-                <h1>
-                  Jim Gibson <br />
-                  Director
-                </h1>
-                <p>
-                  Jim is a published author, entrepreneur, founder, venture
-                  financier, and community builder. He is a member of Garden
-                  Loft’s Board of Directors
                 </p>
               </div>
               <div className="team-content">
