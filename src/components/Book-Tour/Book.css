@@ -1,6 +1,4 @@
-/* Book.css */
-
-.navbarBackground {
+/* .navbarBackground {
   background-color: rgba(0, 0, 0, 0.308);
   height: 20vh;
 }
@@ -34,18 +32,115 @@ justify-content: center;
 
 @media (min-width: 768px) {
   .calendly-widget {
-    height: 700px; /* Slightly taller on tablets */
+    height: 700px; 
   }
 }
 
 @media (min-width: 1024px) {
   .calendly-widget {
-    height: 800px; /* Even taller on desktops */
+    height: 800px; 
   }
 }
 
 @media (min-width: 1440px) {
   .calendly-widget {
-    height: 900px; /* Tallest on large desktops */
+    height: 900px; 
+  }
+} */
+
+/* Book.css */
+
+.navbarBackground {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 20vh;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.tour-notice {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.book-title {
+  margin: 0 0 35px;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.tour-message {
+  margin: 0 auto 18px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.tour-email {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tour-email:hover,
+.tour-email:focus {
+  opacity: 0.7;
+}
+
+/*
+.calendly-widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .calendly-widget {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .calendly-widget {
+    height: 800px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .calendly-widget {
+    height: 900px;
+  }
+}
+*/
+
+@media (max-width: 767px) {
+  .navbarBackground {
+    height: 15vh;
+  }
+
+  .book-container {
+    min-height: 450px;
+    padding: 70px 20px;
+  }
+
+  .book-title {
+    margin-bottom: 25px;
+    font-size: 29px;
+  }
+
+  .tour-message {
+    font-size: 18px;
+    line-height: 1.6;
   }
 }
