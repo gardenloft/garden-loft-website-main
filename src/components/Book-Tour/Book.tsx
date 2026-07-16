@@ -43,16 +43,12 @@ function Book() {
       <main className="book-container">
         <section className="tour-notice">
           <h1 className="book-title">
-            Our New Show Suite Is Under Construction!
+            Our new show suite is under construction!
           </h1>
 
           <p className="tour-message">
             Unfortunately, we are unable to offer tours until it is finished.
-            We expect the new show suite to open in late August.
-          </p>
-
-          <p className="tour-message">
-            In the meantime, please contact us at{' '}
+            We expect the new show suite to open in late August. In the meantime, please contact us at{' '}
             <a
               className="tour-email"
               href="mailto:info@gardenloft.ca"
