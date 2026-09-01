@@ -11,7 +11,7 @@ import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 import Feasibility from "./components/Feasibility-report/Feasibility";
-
+import Advisory from "./components/Advisory-Survey/Advisory";
 
 import Reselling from "./components/Reselling/Reselling";
 
@@ -45,7 +45,7 @@ function App() {
           <Route path="/learn-more" element={<LearnMore/>}/>
           <Route path="/morgage" element={<MortgageSpecialistForm/>}/>
           <Route path="/app-privacypolicy" element={<AppPrivacyPolicy />} />
-          
+          <Route path="/advisory-survey" element={<Advisory />} />
         </Routes>
       </Router>
     </>

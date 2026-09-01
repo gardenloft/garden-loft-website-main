@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Supabase / Advisory Survey private files
+.env.local
+advisory-invites-database.csv
+advisory-invitation-links.csv
