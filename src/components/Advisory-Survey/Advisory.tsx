@@ -390,6 +390,7 @@ export default function AdvisorySurvey() {
                advisory survey.
             </p>
 
+
             <p>
               Please allow approximately
               <strong> 15-20 minutes </strong>
@@ -425,6 +426,7 @@ export default function AdvisorySurvey() {
               before completing the
               questionnaire.
             </p>
+            <br />
 
             <p className="advisory-warning">
               Once you submit the
@@ -433,6 +435,20 @@ export default function AdvisorySurvey() {
               the end of this review, you
               will not be able to access
               the review again.
+            </p>
+
+            <p>
+
+              <br />
+        
+              <p>
+            <strong>Confidentiality Notice: </strong>
+
+The contents of this survey are confidential and are intended solely for the purposes of the Garden Loft / CLIQ project in collaboration with Alberta Innovates. Information, materials, questions, concepts, and other content contained within this survey should not be copied, distributed, shared, reproduced, or disclosed to individuals outside of the project without prior authorization.
+
+By participating in this survey, you are asked to respect the confidentiality of the materials presented and to use the information only for the intended project and research purposes.
+
+            </p>
             </p>
 
           </div>

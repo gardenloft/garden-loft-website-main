@@ -4,8 +4,9 @@ import { writeFileSync } from "node:fs";
 const participants = [
   {
     name: "John Smith",
-    email: "email@mail.com",
+    email: "email@email.com",
   },
+  
  
 
   // Add the remaining participants here.
