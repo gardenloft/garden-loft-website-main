@@ -20,7 +20,7 @@ function Phone() {
           <FontAwesomeIcon icon={faEnvelope} /> info@gardenloft.ca
         </a>
 
-        <p><strong>Our Showroom:</strong> 2727 58 Street SE, Calgary, AB T2C 0B4 (by appointment only)</p>
+        <p><strong>Our Showroom:</strong> 2727 58 Ave SE, Calgary, AB T2C 0B4 (by appointment only)</p>
       </div>
       <Footer />
     </>

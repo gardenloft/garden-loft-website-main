@@ -60,7 +60,7 @@ const AppPrivacyPolicy = () => {
         For questions or concerns, reach us at:<br />
         <strong>Email:</strong> <a href="mailto:info@gardenloft.ca">info@gardenloft.ca</a><br />
         <strong>Phone:</strong> (403)-229 4330<br />
-        <strong>Address:</strong> 301522 11 Ave SW  T2R 0C8
+        <strong>Address:</strong> 2727 58 Ave SE, Calgary, AB T2C 0B4
       </p>
 
       <p>By using GardenLoft, you agree to this Privacy Policy and consent to the collection and use of information as described.</p>

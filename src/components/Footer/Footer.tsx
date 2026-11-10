@@ -146,7 +146,7 @@ const Footer = () => {
           </div>
           <div className="address">
             <p>
-              2727 58 St SE {"("}by appt only{")"} <br /> (403) 229-4330 <br />
+              2727 58 Ave SE {"("}by appt only{")"} <br /> (403) 229-4330 <br />
               info@gardenloft.ca
             </p>
           </div>
